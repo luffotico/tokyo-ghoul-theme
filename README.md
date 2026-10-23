@@ -1,18 +1,78 @@
-# Tokyo Ghoul Theme
+# Tokyo Ghoul Theme 🩸
 
-Uno de tus temas personales para VS Code. La extensión cambia únicamente **colores**, nunca los iconos.
+**A dark, Tokyo Ghoul–inspired color theme for Visual Studio Code.**
 
-## Instalación en Arch Linux
+### One Eyed
 
-1. Extrae este ZIP en `~/.vscode/extensions/`. Debe quedar la carpeta `~/.vscode/extensions/tokyo-ghoul-theme-0.1.0/`.
-2. Reinicia VS Code o ejecuta `Developer: Reload Window`.
-3. Abre **Preferences: Color Theme** (`Ctrl+K`, luego `Ctrl+T`) y selecciona **Tokyo Ghoul — One Eyed**.
-4. Elimina `workbench.colorCustomizations` y `editor.tokenColorCustomizations` de tu archivo **User settings.json**, ya que sobreescriben los colores aportados por cualquier extensión de temas. Conserva `workbench.iconTheme` y todas las demás opciones.
+A near-black editor with crimson keywords, pale-pink accents, and subtle gray comments. Designed for coding with a moody, high-contrast look.
 
-## Para agregar más temas a la misma extensión
 
-Duplica `themes/one-eyed-color-theme.json` con otro nombre, modifica sus colores y añade otro elemento al array `contributes.themes` del `package.json`, con otra etiqueta y la ruta al JSON nuevo. Después recarga VS Code. Todos tus temas aparecerán en el selector de colores.
+## What it changes
 
-## Nota
+- VS Code **colors**: editor, sidebar, title bar, status bar, selections, and syntax highlighting.
+- Includes **Tokyo Ghoul — One Eyed** as the first color theme.
+- Works with C++, Python, and other supported languages; syntax colors may vary by language extension.
 
-Este es un primer tema autónomo construido con los colores que definimos. Como antes estaba basado en Monokai Pro con ajustes encima, algunos colores secundarios o de sintaxis pueden diferir un poco; afínalos en el JSON del tema.
+**It does not change your file icons, font, keybindings, editor layout, or installed extensions.** You can keep **Material Icon Theme**.
+
+## Install locally from VSIX
+
+1. From the project folder, run `npx --yes @vscode/vsce package --allow-missing-repository` to create a `.vsix` file.
+2. In VS Code, open **Extensions** (`Ctrl+Shift+X`).
+3. Select **... → Install from VSIX...**, then select the generated `.vsix` file.
+4. If you are connected through Remote SSH, choose **Show Local** so you can select the package on your own computer.
+5. Open the theme picker with `Ctrl+K`, then `Ctrl+T`, and select **Tokyo Ghoul — One Eyed**.
+
+If you previously customized colors in your user `settings.json`, remove the `workbench.colorCustomizations` and `editor.tokenColorCustomizations` properties, as these can override the selected theme. **Keep `workbench.iconTheme` and your other personal settings.**
+
+## Development (Arch Linux + Fish)
+
+Install prerequisites:
+
+```fish
+sudo pacman -S nodejs npm unzip
+```
+
+Edit the theme colors in:
+
+```text
+themes/one-eyed-color-theme.json
+```
+
+Build and install a local update:
+
+```fish
+cd ~/Downloads/tokyo-ghoul-theme-0.1.1
+npx --yes @vscode/vsce package --allow-missing-repository
+code --install-extension tokyo-ghoul-theme-0.1.1.vsix --force
+```
+
+Then run **Developer: Reload Window** in VS Code. For regular development, move this folder somewhere permanent instead of leaving your only copy in Downloads.
+
+## Add more themes later
+
+1. Copy `themes/one-eyed-color-theme.json` to a new filename, such as `themes/white-reaper-color-theme.json`.
+2. Change the new palette.
+3. Add another entry in the `contributes.themes` array of `package.json`, pointing to that file.
+4. Increment the `version` in `package.json`, repackage, and reinstall.
+5. Switch between themes with `Ctrl+K`, then `Ctrl+T`.
+
+## Project structure
+
+```text
+tokyo-ghoul-theme/
+├── images/
+│   └── icon.png            # Extension listing icon, not file icons
+├── themes/
+│   └── one-eyed-color-theme.json
+├── package.json            # Theme contribution and extension metadata
+├── README.md               # Documentation
+├── CHANGELOG.md
+└── .vscodeignore
+```
+
+## Credits and disclaimer
+
+Fan-made theme inspired by the atmosphere of **Tokyo Ghoul**. Not affiliated with, endorsed by, or officially associated with the anime, manga, or its rights holders. The extension icon was generated as original fan-inspired imagery.
+
+The first release was created as a personal learning and customization project.

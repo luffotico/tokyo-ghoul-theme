@@ -1,15 +1,35 @@
 {
   "name": "tokyo-ghoul-theme",
   "displayName": "Tokyo Ghoul Theme",
-  "description": "Dark Tokyo Ghoul-inspired VS Code color themes. No icon changes.",
-  "version": "0.1.0",
+  "description": "Tokyo Ghoul–inspired dark color theme for VS Code. Crimson syntax, deep black UI, and no changes to file icons.",
+  "version": "0.1.1",
   "publisher": "luffotico",
-  "license": "MIT",
-  "engines": {"vscode": "^1.80.0"},
-  "categories": ["Themes"],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
-      {"label": "Tokyo Ghoul — One Eyed", "uiTheme": "vs-dark", "path": "./themes/one-eyed-color-theme.json"}
+      {
+        "label": "Tokyo Ghoul — One Eyed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-eyed-color-theme.json"
+      }
     ]
+  },
+  "icon": "images/icon.png",
+  "keywords": [
+    "Tokyo Ghoul",
+    "dark",
+    "anime",
+    "red",
+    "theme",
+    "color theme"
+  ],
+  "galleryBanner": {
+    "color": "#0A0A0D",
+    "theme": "dark"
   }
 }
