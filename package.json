@@ -1,0 +1,15 @@
+{
+  "name": "tokyo-ghoul-theme",
+  "displayName": "Tokyo Ghoul Theme",
+  "description": "Dark Tokyo Ghoul-inspired VS Code color themes. No icon changes.",
+  "version": "0.1.0",
+  "publisher": "luffotico",
+  "license": "MIT",
+  "engines": {"vscode": "^1.80.0"},
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {"label": "Tokyo Ghoul — One Eyed", "uiTheme": "vs-dark", "path": "./themes/one-eyed-color-theme.json"}
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Tokyo Ghoul — One Eyed",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0A0A0D",
+    "editor.foreground": "#D8D3D6",
+    "sideBar.background": "#111014",
+    "activityBar.background": "#08080B",
+    "titleBar.activeBackground": "#0A0A0D",
+    "statusBar.background": "#741522",
+    "editorCursor.foreground": "#FF4058",
+    "editorLineNumber.foreground": "#51464E",
+    "editorLineNumber.activeForeground": "#E8A8B2",
+    "editor.selectionBackground": "#68273588",
+    "focusBorder": "#A62338",
+    "editorGroupHeader.tabsBackground": "#0C0B0E",
+    "tab.activeBackground": "#0A0A0D",
+    "tab.inactiveBackground": "#151216",
+    "tab.activeForeground": "#F0DFE2",
+    "tab.inactiveForeground": "#9A8C96",
+    "tab.activeBorderTop": "#E22547",
+    "panel.background": "#0A0A0D",
+    "sideBar.foreground": "#D8D3D6",
+    "activityBar.foreground": "#E8A8B2",
+    "activityBar.inactiveForeground": "#72656E",
+    "input.background": "#181016",
+    "input.border": "#48202D",
+    "dropdown.background": "#181016",
+    "button.background": "#8B1423",
+    "button.hoverBackground": "#AB2437",
+    "list.activeSelectionBackground": "#3A1824",
+    "list.hoverBackground": "#24131B",
+    "editor.findMatchBackground": "#80314588",
+    "editor.findMatchHighlightBackground": "#5D263D66",
+    "editor.wordHighlightBackground": "#68273555",
+    "terminal.background": "#0A0A0D",
+    "terminal.foreground": "#D8D3D6",
+    "terminal.ansiRed": "#FF526B",
+    "terminal.ansiBrightRed": "#FF7A8F",
+    "terminal.ansiGreen": "#AFCDAF",
+    "terminal.ansiYellow": "#E5A66B",
+    "terminal.ansiBlue": "#98AFC8",
+    "terminal.ansiMagenta": "#DCA6B7",
+    "terminal.ansiCyan": "#93C8C8"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#817782"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "storage.type",
+        "keyword.control.directive"
+      ],
+      "settings": {
+        "foreground": "#FF3859"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#DCA6B7"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#E5A66B"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "entity.name.class",
+        "entity.name.struct"
+      ],
+      "settings": {
+        "foreground": "#F0DFE2"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#FFB5C2"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#D6CDD4"
+      }
+    },
+    {
+      "name": "Preprocessor",
+      "scope": [
+        "meta.preprocessor",
+        "keyword.control.directive.include"
+      ],
+      "settings": {
+        "foreground": "#FF526B"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "punctuation.separator"
+      ],
+      "settings": {
+        "foreground": "#CFC2CA"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function": "#FFB5C2",
+    "method": "#FFB5C2",
+    "variable": "#D6CDD4",
+    "parameter": "#D6CDD4",
+    "type": "#F0DFE2",
+    "class": "#F0DFE2",
+    "keyword": "#FF3859",
+    "string": "#DCA6B7",
+    "number": "#E5A66B",
+    "comment": "#817782"
+  }
+}
