@@ -31,5 +31,10 @@
   "galleryBanner": {
     "color": "#0A0A0D",
     "theme": "dark"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luffotico/tokyo-ghoul-theme.git"
+  },
+  "license": "MIT"
 }
