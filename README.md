@@ -1,5 +1,21 @@
 # Tokyo Ghoul Theme 🩸
 
+## Theme Previews
+
+### Tokyo Ghoul — One Eyed
+
+A dark theme featuring deep black backgrounds,
+crimson accents, and soft pink syntax highlighting.
+
+![One Eyed Preview](images/screenshots/one-eyed.png)
+
+### Tokyo Ghoul — White Reaper
+
+A minimalist light theme featuring cool whites,
+silver tones, and subtle crimson accents.
+
+![White Reaper Preview](images/screenshots/white-reaper.png)
+
 **A dark, Tokyo Ghoul–inspired color theme for Visual Studio Code.**
 
 ### One Eyed
