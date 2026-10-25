@@ -1,0 +1,49 @@
+{
+  "name": "Tokyo Ghoul — White Reaper",
+  "type": "light",
+  "semanticHighlighting": false,
+  "colors": {
+    "editor.background": "#FAFAFA",
+    "editor.foreground": "#242424",
+    "editorCursor.foreground": "#A11212",
+    "editor.lineHighlightBackground": "#F0F0F0",
+    "editor.selectionBackground": "#D8D8D8",
+    "editorLineNumber.foreground": "#AAAAAA",
+    "editorLineNumber.activeForeground": "#7A0C0C",
+
+    "sideBar.background": "#F2F2F2",
+    "sideBar.foreground": "#333333",
+    "activityBar.background": "#E8E8E8",
+    "activityBar.foreground": "#242424",
+    "statusBar.background": "#242424",
+    "statusBar.foreground": "#FFFFFF",
+
+    "titleBar.activeBackground": "#F2F2F2",
+    "titleBar.activeForeground": "#242424",
+    "tab.activeBackground": "#FAFAFA",
+    "tab.inactiveBackground": "#F0F0F0",
+    "focusBorder": "#A11212"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#888888" }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#A11212" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#646464" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#7A0C0C" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#333333" }
+    }
+  ]
+}
