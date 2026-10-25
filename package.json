@@ -2,7 +2,7 @@
   "name": "tokyo-ghoul-theme",
   "displayName": "Tokyo Ghoul Theme",
   "description": "Tokyo Ghoul–inspired dark color theme for VS Code. Crimson syntax, deep black UI, and no changes to file icons.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "luffotico",
   "engines": {
     "vscode": "^1.80.0"

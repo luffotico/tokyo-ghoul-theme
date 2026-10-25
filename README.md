@@ -7,14 +7,14 @@
 A dark theme featuring deep black backgrounds,
 crimson accents, and soft pink syntax highlighting.
 
-![One Eyed Preview](images/screenshots/one-eyed.png)
+![One Eyed Preview](https://raw.githubusercontent.com/luffotico/tokyo-ghoul-theme/main/images/screenshots/one-eyed.png)
 
 ### Tokyo Ghoul — White Reaper
 
 A minimalist light theme featuring cool whites,
 silver tones, and subtle crimson accents.
 
-![White Reaper Preview](images/screenshots/white-reaper.png)
+![White Reaper Preview](https://raw.githubusercontent.com/luffotico/tokyo-ghoul-theme/main/images/screenshots/white-reaper.png)
 
 **A dark, Tokyo Ghoul–inspired color theme for Visual Studio Code.**
 

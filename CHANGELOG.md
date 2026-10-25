@@ -1,4 +1,13 @@
 # Changelog
+
+## [0.1.3] - 2026-10-24
+
+### Added
+- Preview screenshots for One Eyed and White Reaper.
+
+### Changed
+- Improved README presentation for Visual Studio Marketplace.
+
 ## [0.1.2] - 2026-10-24
 
 ### Added
